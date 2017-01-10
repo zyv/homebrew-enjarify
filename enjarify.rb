@@ -8,7 +8,8 @@ class Enjarify < Formula
 
   def install
     libexec.install "enjarify"
-    bin.install_symlink Dir["#{libexec}/bin/enjarify.sh"]
+    libexec.install "enjarify.sh"
+    bin.install_symlink libexec/"enjarify.sh"
   end
 
 end
