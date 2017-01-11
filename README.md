@@ -3,5 +3,5 @@ Homebrew's formula for Enjarify
 
 ## Install
 ```
-brew tap igoticecream/homebrew-enjrify && brew install enjarify
+brew tap igoticecream/homebrew-enjarify && brew install enjarify
 ```
