@@ -4,8 +4,6 @@ class Enjarify < Formula
   url "https://github.com/google/enjarify/archive/1.0.3.tar.gz"
   sha256 "0201e277d28a1e1dec817cddfb33f222558780a3b0692761eade084b826e4516"
 
-  depends_on python
-
   def install
     # Install files
     bin.install "enjarify"
